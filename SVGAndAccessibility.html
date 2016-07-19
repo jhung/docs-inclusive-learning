@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>SVG and Accessibility | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Methods</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveLearning.html">Inclusive Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityPrinciples.html">Accessibility Principles</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Techniques.html">Techniques</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Metadata.html">Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessForAll.html">Access for All</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SchemaOrgAccessibilityProperties.html">Schema.org Accessibility Properties</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="LearnerNeedsAndPreferences.html">Learner Needs and Preferences</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="VideoContentAndLearning.html">Video Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AudioContentAndLearning.html">Audio Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="WebGamesAndSimulations.html">Web Games and Simulations</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="ModalDialogs.html">Accessible Modal Dialogs</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: SVG and Accessibility" class="docs-template-topics-active">SVG and Accessibility</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Sonification.html">Sonification</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AuthoringOfContent.html">Authoring of Content</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CognitiveConsiderations.html">Cognitive Considerations</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>SVG and Accessibility</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <h2 id="what-is-svg-">What is SVG?</h2>
+<p>SVG (Scalable Vector Graphics) is a means of describing vector graphics in markup on a web page. This can be advantageous for inclusive design because vector graphics can be easily resized, and scaled up or down to different resolutions without loss of quality. SVG can also be augmented with additional semantics that make them compatible with assistive technologies such as screen readers.</p>
+<h2 id="simple-svg-example">Simple SVG Example</h2>
+<h3 id="source-code">Source Code</h3>
+<pre class="highlight"><code class="hljs nix">&lt;svg <span class="hljs-variable">width=</span><span class="hljs-string">"10em"</span> <span class="hljs-variable">height=</span><span class="hljs-string">"5em"</span> <span class="hljs-variable">viewBox=</span><span class="hljs-string">"0 0 1200 400"</span>
+     <span class="hljs-variable">xmlns=</span><span class="hljs-string">"http://www.w3.org/2000/svg"</span> <span class="hljs-variable">version=</span><span class="hljs-string">"1.1"</span>&gt;
+  &lt;desc&gt;Two small rectangles, one red, one green.&lt;/desc&gt;
+  &lt;rect <span class="hljs-variable">x=</span><span class="hljs-string">"300"</span> <span class="hljs-variable">y=</span><span class="hljs-string">"150"</span> <span class="hljs-variable">width=</span><span class="hljs-string">"400"</span> <span class="hljs-variable">height=</span><span class="hljs-string">"200"</span>
+        <span class="hljs-variable">fill=</span><span class="hljs-string">"red"</span> <span class="hljs-variable">stroke=</span><span class="hljs-string">"black"</span> <span class="hljs-variable">stroke-width=</span><span class="hljs-string">"5"</span> /&gt;
+  &lt;rect <span class="hljs-variable">x=</span><span class="hljs-string">"725"</span> <span class="hljs-variable">y=</span><span class="hljs-string">"150"</span> <span class="hljs-variable">width=</span><span class="hljs-string">"400"</span> <span class="hljs-variable">height=</span><span class="hljs-string">"200"</span>
+      <span class="hljs-variable">fill=</span><span class="hljs-string">"green"</span> <span class="hljs-variable">stroke=</span><span class="hljs-string">"black"</span> <span class="hljs-variable">stroke-width=</span><span class="hljs-string">"5"</span> /&gt;
+&lt;/svg&gt;
+</code></pre><h3 id="rendered-svg">Rendered SVG</h3>
+<svg width="10em" height="5em" viewBox="0 0 1200 400"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <desc>Two small rectangles, one red, one green.</desc>
+  <rect x="300" y="150" width="400" height="200"
+        fill="red" stroke="black" stroke-width="5" />
+  <rect x="800" y="150" width="400" height="200"
+      fill="green" stroke="black" stroke-width="5" />
+</svg>
+
+<h2 id="traditional-web-image-accessibility">Traditional Web Image Accessibility</h2>
+<p>The familiar <code>&lt;img&gt;</code> image tag embeds an existing image file onto a web page. Access is typically provided to such images through alternate textual description by the <code>alt</code> attribute. Images are one of the most common and familiar challenges in web accessibility and are well-covered by the <a href="https://www.w3.org/TR/WCAG20/" target="_blank" class="link-external">Web Content Accessibility Guidelines</a>.</p>
+<p>SVGs are a very different approach to images on webpages, and require somewhat different approaches to accessibility to follow the <a href="/AccessibilityPrinciples.html">Accessibility Principles</a> of perceivability, understandability and operability. Rather than embedding bitmap image files directly, they supply markup to describe an image and rely on the end user&#39;s browser to interpret them and render the image.</p>
+<h3 id="bitmap-graphics-vs-vector-graphics">Bitmap Graphics vs. Vector Graphics</h3>
+<p><a href="https://en.wikipedia.org/wiki/Bitmap" target="_blank" class="link-external">Bitmap graphics</a> are made up of rectangular grids of pixels, while <a href="https://en.wikipedia.org/wiki/Vector_graphics" target="_blank" class="link-external">vector graphics</a> build up images from simple polygons. One obvious and frequently noted advantage of this is that vector graphics are easily scaled up without the loss of resolution.</p>
+<p>SVG is a specific W3C standard for defining vector graphics in XML that most modern browsers support.</p>
+<h2 id="what-possibilities-does-svg-offer-for-inclusive-design-">What Possibilities Does SVG Offer for Inclusive Design?</h2>
+<p>Because SVG is expressed in pure markup and then interpeted and rendered by the browser in a similar manner to HTML, it has some interesting potential for inclusive design:</p>
+<ul>
+<li>It&#39;s a technology based on web standards, and requires no separate plug-ins to support.</li>
+<li>Because it forms part of the <a href="https://en.wikipedia.org/wiki/Document_Object_Model" target="_blank" class="link-external">Document Object Model</a>, it can be transformed by client-side code that interacts with the DOM, giving it potential for adaptation into alternative formats or reuse.</li>
+<li>SVG code is highly portable and can be shared or embedded in another context simply by embedding its markup.</li>
+<li>Individual or grouped polygons can have different markup, such as different ARIA attributes; this can help support building more complex interactions</li>
+<li>The structure, content and presentation of SVG can be separated, similar to best practices around HTML.</li>
+</ul>
+<h2 id="how-do-we-support-the-accessibility-of-svg-content-">How Do We Support the Accessibility of SVG Content?</h2>
+<p>Techniques and approaches to supporting accessible SVG include:</p>
+<ul>
+<li>Use <code>aria-role</code> to describe the role of SVG content in the page. This can avoid unexpected or confusing behaviour by ATs interpreting the markup.<ul>
+<li>For example, a fuctionally static image created from a combination of SVG elements may have individual elements read by a screen reader. Assigning <code>aria-role=&quot;image&quot;</code> can prevent this behaviour and allow a screen reader to interpret and convey the image as a single image element, with appropriate alternate text description.</li>
+</ul>
+</li>
+<li>Use the <code>title</code> and <code>desc</code> elements made available by SVG for providing text alternatives.</li>
+<li>Don&#39;t make use of <code>aria-labelledby</code>, <code>aria-labels</code>, <code>aria-describedby</code>, <code>aria-describes</code> and other ARIA attributes to indicate related elements both within the SVG and between the SVG and the rest of the document.</li>
+<li>If using SVG for animated or interactive elements, use ARIA attributes and provide keyboard alternatives to interaction; some guidance for games and simulations using SVG can be found at the <a href="/WebGamesAndSimulations.html">Inclusive Learning Design Handbook entry on Web Games and Simulations</a>.</li>
+<li>Where possible consider the use of <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/SVG_and_CSS" target="_blank" class="link-external">CSS to manage the visual appearance of SVG elements</a> as a means of separating presentation from structure and content; this will make adaptation to alternative presentations easier.</li>
+</ul>
+<h2 id="caveats">Caveats</h2>
+<p>SVG is a large and complex non-HTML technology, albeit one that is supported by modern web browsers well enough to offer many useful possibilities. However</p>
+<ul>
+<li>Complex uses of SVG should be considered with <a href="http://caniuse.com/#cats=SVG" target="_blank" class="link-external">reference to browser support for specialized features</a>, especially if you are interested in supporting older browsers, or advanced effects such as filters and path clipping.</li>
+<li>If features can be implemented or information presented using only HTML, this is probably preferable to using SVG.</li>
+<li>Consider whether or not it makes sense to provide an alternative presentation using HTML to any SVG content, such as a data table for data rendered in a chart as is found in the <a href="http://build.fluidproject.org/chartAuthoring/demos/" target="_blank" class="link-external">FLOE Chart Authoring Tool</a>.</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<h3 id="general-svg-resources">General SVG Resources</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG" target="_blank" class="link-external">Mozilla Developer Network - SVG</a></li>
+<li><a href="https://sarasoueidan.com/tags/svg/" target="_blank" class="link-external">Sara Soueidan&#39;s SVG Articles</a></li>
+</ul>
+<h3 id="accessibility-specific-articles">Accessibility-specific Articles</h3>
+<ul>
+<li><a href="http://www.sitepoint.com/tips-accessible-svg/" target="_blank" class="link-external">Tips for Creating Accessible SVG</a></li>
+<li><a href="http://schepers.cc/authoring-accessible-svg" target="_blank" class="link-external">Current State of Authoring Accessible SVG</a></li>
+<li><a href="http://www.sitepoint.com/creating-accessible-breakout-game-using-web-audio-svg/" target="_blank" class="link-external">Creating an Accessible Breakout Game Using Web Audio and SVG</a></li>
+<li><a href="https://www.paciellogroup.com/blog/2013/12/using-aria-enhance-svg-accessibility/" target="_blank" class="link-external">Using ARIA to enhance SVG accessibility</a></li>
+</ul>
+<h3 id="specifications">Specifications</h3>
+<ul>
+<li><a href="https://www.w3.org/TR/SVG/" target="_blank" class="link-external">W3C SVG 1.1 Specification</a></li>
+<li><a href="https://www.w3.org/TR/SVG/" target="_blank" class="link-external">W3C SVG 2 Specification</a> (working draft)</li>
+<li><a href="https://www.w3.org/TR/svg-aam-1.0/" target="_blank" class="link-external">SVG Accessibility API Mappings</a> (working draft)</li>
+</ul>
+<h3 id="open-source-libraries-for-working-with-svg">Open Source Libraries for Working With SVG</h3>
+<ul>
+<li><a href="https://d3js.org/" target="_blank" class="link-external">D3.js</a> - a powerful, web standards-based library with many functions for building SVG-based charts, graphs and other data visualizations.</li>
+<li><a href="http://snapsvg.io/" target="_blank" class="link-external">Snap.svg</a> - an SVG library emphasizing modern browsers and the newest SVG features.<ul>
+<li>By contrast, <a href="https://github.com/DmitryBaranovskiy/raphael" target="_blank" class="link-external">Raphaël</a> focuses on cross-browser compatibility.</li>
+</ul>
+</li>
+</ul>
+
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/SVGAndAccessibility.md" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

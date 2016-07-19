@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Web Games and Simulations | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Methods</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveLearning.html">Inclusive Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityPrinciples.html">Accessibility Principles</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Techniques.html">Techniques</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Metadata.html">Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessForAll.html">Access for All</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SchemaOrgAccessibilityProperties.html">Schema.org Accessibility Properties</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="LearnerNeedsAndPreferences.html">Learner Needs and Preferences</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="VideoContentAndLearning.html">Video Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AudioContentAndLearning.html">Audio Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: Web Games and Simulations" class="docs-template-topics-active">Web Games and Simulations</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="ModalDialogs.html">Accessible Modal Dialogs</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SVGAndAccessibility.html">SVG and Accessibility</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Sonification.html">Sonification</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AuthoringOfContent.html">Authoring of Content</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CognitiveConsiderations.html">Cognitive Considerations</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>Web Games and Simulations</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <p>Interactive games can provide rich learning experiences for many students - but for some, these games are an accessibility and inclusivity challenge. This guide aims at giving some practical techniques to help improve the inclusiveness and accessibility of interactive content whether retrofitting existing content or creating a new game from scratch.</p>
+<p><strong>Scope of this Guide:</strong> This guide deals with interactive games built using standard web technologies such as HTML5, CSS, SVG, and JavaScript. By using established web standards, the content you create has a higher chance of being understood by assistive technologies.</p>
+<h2 id="orienting-the-user">Orienting the User</h2>
+<p>Regardless of the modality used for interaction, a logical, predictable structure helps users focus on learning instead of getting stuck on the interaction. Consistency and predicability is important.</p>
+<p>Help orient the user by:</p>
+<ul>
+<li>having a consistent structure;</li>
+<li>describing the scene and setting so non-visual users can understand their context;</li>
+<li>identifying the actors and interactive parts;</li>
+<li>giving meaningful and predictable landmarks for the user;</li>
+<li>using progress and status indicators as necessary;</li>
+<li>trying to keep the structure stable. Be mindful about removing items completely from the structure - consider disabling elements rather than removing them.</li>
+</ul>
+<h2 id="player-choices-and-controls">Player Choices and Controls</h2>
+<p>Some people make choices easily, while others require more time before making decisions. Choices in games can be exciting for some, but stressful for others.</p>
+<p>If presenting learners with multiple choices that affect the outcome of a game:</p>
+<ul>
+<li>If possible, make choices forgiving: give opportunity for users to recover from, or change their choices.</li>
+<li>Avoid player choices which require decisions within a time limit or provide options to disable such features.</li>
+</ul>
+<p>Other best practices are:</p>
+<ul>
+<li>Label each button and control. Labels should use simple terminology and define any terms if necessary.</li>
+<li>Labels should state simply what the button will do. If longer descriptions are needed, use an <code>aria-describedby</code> property.</li>
+<li>Buttons, links, controls should make it clear what the outcome would be. For example: A choice called &quot;I&#39;m out of here&quot; could be changed to &quot;I&#39;m out of here - quit game&quot;, or simply &quot;Quit&quot;.</li>
+<li>For graphical buttons, like icons on a toolbar, use <code>aria-labelledby</code> to label the button and then use a technique to hide the text visually. The following article shows how to visibly hide content, but keeping it accessible:  <a href="http://webaim.org/techniques/css/invisiblecontent/" rel="nofollow" target="_blank" class="link-external">&quot;Invisible Content Just for Screen Reader Users&quot; on WebAim.org</a>.</li>
+</ul>
+<h2 id="communicating-events-and-actions-with-text-and-sound">Communicating Events and Actions with Text and Sound</h2>
+<p>A large part of interactive content are the events that happen during and after a user performs an action. Often these occur as on-screen visuals, animations, and transitions. The following are some techniques for creating an equivalent experience for non-sighted learners:</p>
+<ul>
+<li>Use <code>aria-live</code> regions to communicate changes to the interface. <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions" rel="nofollow" target="_blank" class="link-external">&quot;Aria Live Regions&quot; article on Mozilla Developers</a> gives an overview of how <code>aria-live</code> is used.</li>
+<li>Use ARIA <code>describedby</code> to write text descriptions of what has happened. <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute" rel="nofollow" target="_blank" class="link-external">&quot;Using the aria-describedby attribute&quot; article on Mozilla Developers</a> shows how <code>describedby</code> can be used.</li>
+<li>Consider use of various sounds to convey meaning. For example, to convey proximity of one object to another, use a tone of increasing pitch like a Theremin (visit <a href="https://en.wikipedia.org/wiki/Theremin" rel="nofollow" target="_blank" class="link-external">Theremin on Wikipedia</a>).<ul>
+<li>To find out more about how sound can be used to enhance learning, see <a href="https://wiki.fluidproject.org/display/fluid/Floe+Sonification+Work" rel="nofollow" target="_blank" class="link-external">Floe Sonification Work on the Fluid Project Wiki</a>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="content-accessibility-screen-readers">Content Accessibility / Screen Readers</h2>
+<p>Follow a good structure and use semantic markup:</p>
+<ul>
+<li><a href="http://webaim.org/techniques/screenreader/" rel="nofollow" target="_blank" class="link-external">WebAim.org - Designing for Screen Reader Compatibility</a></li>
+<li><a href="AccessibilityPrinciples.html">Inclusive Learning Design Handbook - Accessibility Principles</a></li>
+<li>Make sure to use HTML 5 semantic markup wherever possible: i.e. <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;figure&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>. For more information, see: <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element" rel="nofollow" target="_blank" class="link-external">https://developer.mozilla.org/en/docs/Web/HTML/Element</a></li>
+<li>Use WAI-ARIA to improve accessibility. See: <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" rel="nofollow" target="_blank" class="link-external">Mozilla Developer ARIA - good resource for learning, examples, blogs</a>.</li>
+</ul>
+<h2 id="visuals">Visuals</h2>
+<ul>
+<li>Provide text descriptions for important visuals: images should have alt-text and longer text descriptions if necessary. Use <code>aria-describedby</code> or <code>longdesc</code> as required. See: <a href="http://www.w3.org/WAI/tutorials/images/complex/" rel="nofollow" target="_blank" class="link-external">http://www.w3.org/WAI/tutorials/images/complex/</a></li>
+<li>Content contained in the background (using background CSS property), :before or :after elements are ignored by screen readers. Do not put important content within these elements. Use <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> pattern as necessary for important graphics / images.</li>
+<li>Ensure good contrast in colours and details. You can check your colours by using the <a href="http://webaim.org/resources/contrastchecker/" rel="nofollow" target="_blank" class="link-external">WebAIM Color Contrast Checker</a>.</li>
+</ul>
+<h2 id="punctuation">Punctuation</h2>
+<p>Punctuation helps a screen reader know when to pause, or give proper emphasis.</p>
+<ul>
+<li>Check for missing punctuation - if periods or commas are missing, screen readers would not know to pause.</li>
+<li>Unicode characters are often omitted by screen readers. Ellipsis (...), arrows, and other characters are ignored.</li>
+<li>Acronyms and abbreviations should use the <code>&lt;abbr&gt;</code> element with the relevant aria properties. For example:<ul>
+<li><code>&lt;abbr role=&quot;text&quot; title=&quot;kilograms&quot; aria-label=&quot;kilograms&quot;&gt;kg&lt;/abbr&gt;</code></li>
+<li><code>&lt;abbr role=&quot;text&quot; title=&quot;miles per hour&quot; aria-label=&quot;miles per hour&quot;&gt;mph&lt;/abbr&gt;</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="charts-and-graphs">Charts and Graphs</h2>
+<p>Charts and graphs are an excellent way to convey data in a meaningful way. However, charts and graphs typically favour a student who is capable of perceiving the content and can cognitively process the information.</p>
+<p>To make charts and graphs more inclusive:</p>
+<ul>
+<li>Provide alternatives to charts. Give text descriptions and interpretations of the data, give a table of data.</li>
+<li>Write a good description:<ul>
+<li>Identifies what is being shown (i.e. the purpose of the chart).</li>
+<li>Describes the values (relative sizes and differences between values).</li>
+<li>Describes any patterns to may help us understand the data.</li>
+<li>Summarizes the trend / data pattern.</li>
+</ul>
+</li>
+</ul>
+<p>For additional resources on describing complex diagrams, see:</p>
+<ul>
+<li>PSU’s chart accessibility guide - <a href="http://accessibility.psu.edu/images/charts/" rel="nofollow" target="_blank" class="link-external">http://accessibility.psu.edu/images/charts/</a>.</li>
+<li>W3C&#39;s guide on describing complex images - <a href="http://www.w3.org/WAI/tutorials/images/complex/" rel="nofollow" target="_blank" class="link-external">http://www.w3.org/WAI/tutorials/images/complex/</a>.</li>
+</ul>
+<p>If using a table of data:</p>
+<ul>
+<li>Follow best practices for table formatting (i.e. proper use of table headers, no table nesting). <a href="https://www.webaccessibility.com/best_practices.php?technology_platform_id=8" rel="nofollow" target="_blank" class="link-external">See Data Table Best Practices at WebAccessibility.com</a>.</li>
+<li>Define any math, symbols, units, or acronyms. For additional information about making math accessible, see <a href="Mathematics.html">Mathematics</a>.</li>
+<li>Simplify and separate data tables if possible. Tables can be cumbersome to navigate (like with screen readers, small mobile displays, or screen magnifiers), so splitting and simplifying can be helpful.</li>
+</ul>
+<h2 id="poet-image-description-tool-for-graphs">Poet Image Description Tool for Graphs</h2>
+<p>The Poet Image Description Tool is a web-based tool for creating image descriptions in existing DAISY and EPUB books. This tool has resources and tools to help content authors create good image descriptions following an extended NCAM guideline. There is also a math editor which transcribes math into readable format.</p>
+<p>See: Poet Image Description Tool at <a href="http://diagramcenter.org/development/poet.html" rel="nofollow" target="_blank" class="link-external">http://diagramcenter.org/development/poet.html</a>.</p>
+<h2 id="cognitive">Cognitive</h2>
+<p>Information should be presented in a clear concise manner, and where possible starting with general statements first with more detailed information following.</p>
+<ul>
+<li>Instructions should be clear and concise, using a language that is appropriate.</li>
+<li>If there is any possibility of confusion, make help readily available.</li>
+<li>Avoid really dense content and interactions. Leverage semantic markup such as <code>&lt;section&gt;</code> elements with proper <code>&lt;h1&gt;</code> headings to help group content into navigable chunks.</li>
+<li><p>Consider presenting information as needed, rather than presenting it all up front.</p>
+<ul>
+<li>For example, instead of printing instructions up front in text, instructions may be better presented when the user is hovering or focused on that control (like a tooltip). This helps reduce cognitive load and gives information only when it&#39;s needed.</li>
+</ul>
+</li>
+<li><p>Consider presenting information as needed, rather than presenting it all up front. Instructions may be better presented in context of the button or action (like a tooltip). This helps reduce cognitive load and gives information only when it&#39;s needed.</p>
+</li>
+</ul>
+<p>For related information, see: <a href="https://wiki.fluidproject.org/x/D4DpAg" rel="nofollow" target="_blank" class="link-external">Designing interfaces to meet the needs of users with cognitive disabilities</a>.</p>
+<h2 id="visual-perception">Visual Perception</h2>
+<ul>
+<li>Do not rely on colour alone to convey meaning. If this is unavoidable, provide a text label or text descriptions.</li>
+<li>Avoid using transition / animation effects on content that is critical to the outcomes of the game. These effects may be missed or misunderstood.</li>
+<li>Use opacity, transparency, alpha channels with caution. These effects may make it more difficult for some users to distinguish content from the background.</li>
+</ul>
+<h2 id="keyboard-keypad-single-switch-interaction">Keyboard / Keypad / Single-switch Interaction</h2>
+<p>Many users, not just users of screen readers, use the keyboard to interact with their computer. Some users may be using a keypad, a joystick mapped to keys, or a single-switch to navigate a virtual keyboard. A succinct keyboard interaction will help these learners focus on the content and not the mechanics of interaction.</p>
+<ul>
+<li>Tab order should be consistent with existing user experiences and conventions. Generally tab order follows reading order for your region (e.g. left-to-right, top-to-bottom).</li>
+<li>Many screen readers have their own keys related to navigation and interaction. Therefore if your application has implemented its own keyboard interaction, it may conflict with keys used by assistive technologies. To understand the different modes a screen reader can navigate and consume content, visit &quot;<a href="http://tink.uk/understanding-screen-reader-interaction-modes/" rel="nofollow" target="_blank" class="link-external">Understanding screen reader interaction modes</a>&quot; on tink.uk.</li>
+<li>Default browser focus styling is often too subtle to be noticeable by many users. It is recommended to use focus styling that is more noticeable by either using a thicker border or better colour contrast.</li>
+</ul>
+<p>You want to get your users into the experience as quickly as possible:</p>
+<ul>
+<li>If there is a group of navigation elements such as a site menu, navigation breadcrumb, or other common &quot;header&quot; features up front, use accessibility &quot;skip&quot; links to jump to the main content. Also using HTML 5 semantic markup such as <code>&lt;nav&gt;</code> and <code>&lt;header&gt;</code> will help screen readers identify content and be able to skip past them if needed.<ul>
+<li>To add a skip link to your content, see this article on WebAIM: <a href="http://webaim.org/techniques/skipnav/" rel="nofollow" target="_blank" class="link-external">http://webaim.org/techniques/skipnav/</a></li>
+</ul>
+</li>
+<li>When tabbing through - focus should &quot;wrap around&quot; to the start of the tab order when the end has been reached. Watch for focus traps or hidden elements which may confuse or break the game for users.</li>
+</ul>
+<h2 id="images-symbols-math-icons-and-glyphs">Images, Symbols, Math, Icons, and Glyphs</h2>
+<p>Make sure that symbols, math notation, and other glyphs have the desired textual output when read by a screen reader. For example: &quot;1/2&quot; should read as “one half” and not “one slash two”.</p>
+<ul>
+<li>Consider using MathML for math notations. See example: <a href="Mathematics.html">Mathematics</a>.</li>
+<li><p>Acronyms and abbreviations should use the <abbr> element with the relevant aria properties. For example:</p>
+<ul>
+<li><code>&lt;abbr role=&quot;text&quot; title=&quot;kilograms&quot; aria-label=&quot;kilograms&quot;&gt;kg&lt;/abbr&gt;</code></li>
+<li><code>&lt;abbr role=&quot;text&quot; title=&quot;miles per hour&quot; aria-label=&quot;miles per hour&quot;&gt;mph&lt;/abbr&gt;</code></li>
+<li>Also see:  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" rel="nofollow" target="_blank" class="link-external">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr</a></li>
+</ul>
+</li>
+<li><p>For icons and symbols, use alt-text (if it is an image) and aria-label <a href="http://www.w3.org/WAI/GL/wiki/Using_aria-label_to_provide_labels_for_objects" rel="nofollow" target="_blank" class="link-external">http://www.w3.org/WAI/GL/wiki/Using_aria-label_to_provide_labels_for_objects&quot;</a></p>
+</li>
+<li>If images are in the background and are cosmetic, they do not require text descriptions. Provide text descriptions for visual content that is important to the interaction.</li>
+<li>Avoid using standard characters to create graphics as each character is read back individually. Example: -&gt; is read back as &quot;hyphen greater than&quot; although the author likely intended it to be a right-pointing arrow.</li>
+</ul>
+<p>Unicode characters offer a few common glyphs which can be used in place of image icons. If using Unicode characters, something like the following code snippet would be helpful:</p>
+<pre class="highlight"><code class="hljs xml">HTML:
+
+<span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">aria-labelledby</span>=<span class="hljs-value">"left-arrow"</span>&gt;</span>&amp;larr;<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"left-arrow"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"hidden"</span>&gt;</span>Left arrow<span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span>
+
+CSS:
+
+.hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+</code></pre>
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/WebGamesAndSimulations.md" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Visual Styles | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveLearning.html" title="Methods">Methods</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Inclusive EPUB 3">Inclusive EPUB 3</span></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveLearning.html" title="Methods">Methods</a></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Inclusive EPUB 3">Inclusive EPUB 3</span></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Inclusive EPUB 3</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveEPUB3.html">Introduction to Inclusive EPUB 3</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SemanticMarkupInEPUB3.html">Semantic Markup in EPUB 3</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="WAI-ARIA.html">WAI-ARIA</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: Visual Styles" class="docs-template-topics-active">Visual Styles</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="GraphicsAndMultimedia.html">Graphics and Multimedia</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="ScriptingInEPUB3.html">Scripting in EPUB 3</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Mathematics.html">Mathematics</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="NarrationsAndTextToSpeech.html">Narrations and Text-to-Speech</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityMetadata.html">Accessibility Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="TestingAndValidation.html">Testing and Validation</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CaseStudyExemplar.html">Case Study: Exemplar</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="EPUB3Resources.html">EPUB 3 Resources</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>Visual Styles</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <p>Visual styling in EPUB 3 books should be approached differently than styling for a webpage residing on the Internet. Generally, styling for an EPUB 3 publication should:</p>
+<ul>
+<li><strong>Avoid fixed position layouts</strong> - displays on reader systems vary greatly, and fixed position content may appear offscreen.</li>
+<li><strong>Make sparing use of colours</strong> - reader systems have default colours for content, and adding or overriding these colours should be done cautiously. For example, while black text on a blue background may look fine on a colour LCD equipped reader system, the same content on an e-ink device may render as an indistinguishable, dark mass.</li>
+<li><strong>Make good use of white space</strong> including line spacing, margins, and indentation, to helps improve legibility of content.</li>
+<li><strong>Use clear logical layouts</strong> with sparing use of asides and sidebars to make it clear what is the primary and secondary content. Using a single column layout also ensures that the content appears consistent across platforms.</li>
+</ul>
+<p>Using a gentle approach to visual styling ensures that EPUB 3 content is inclusive to a wide variety of reader platforms and users. Simple styling also makes it easier for users to make their own customizations to suit their own preferences and environments.</p>
+<p>Although we strive to be inclusive, some types of content have their challenges. Books that rely heavily on illustrations, graphics, or imagery (like children&#39;s books) cannot be reflowed, reformatted, or customized easily; in the next section we will discuss some solutions to make your content more usable and accessible.</p>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://toc.oreilly.com/2013/02/and-along-with-epub-3-new-css.html"> &quot;... and along with new EPUB 3: New CSS&quot; by Nellie McKesson, O&#39;Reilly</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.idpf.org/epub/301/spec/epub-publications.html#sec-package-metadata-fxl"> &quot;Fixed-Layout Properties&quot; by IDPF</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.ibm.com/developerworks/library/x-richlayoutepub/"> &quot;Create rich-layout publications in EPUB 3 with HTML5, CSS3, and MathML&quot; by Liza Daly, IBM Developer Works</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.idpf.org/accessibility/guidelines/content/style/color.php"> &quot;EPUB Stylesheets&quot; by IDPF</a></li>
+</ul>
+
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/VisualStyles.md" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

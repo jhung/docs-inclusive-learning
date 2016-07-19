@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Semantic Markup in EPUB 3 | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveLearning.html" title="Methods">Methods</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Inclusive EPUB 3">Inclusive EPUB 3</span></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveLearning.html" title="Methods">Methods</a></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Inclusive EPUB 3">Inclusive EPUB 3</span></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Inclusive EPUB 3</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveEPUB3.html">Introduction to Inclusive EPUB 3</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: Semantic Markup in EPUB 3" class="docs-template-topics-active">Semantic Markup in EPUB 3</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="WAI-ARIA.html">WAI-ARIA</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="VisualStyles.html">Visual Styles</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="GraphicsAndMultimedia.html">Graphics and Multimedia</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="ScriptingInEPUB3.html">Scripting in EPUB 3</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Mathematics.html">Mathematics</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="NarrationsAndTextToSpeech.html">Narrations and Text-to-Speech</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityMetadata.html">Accessibility Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="TestingAndValidation.html">Testing and Validation</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CaseStudyExemplar.html">Case Study: Exemplar</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="EPUB3Resources.html">EPUB 3 Resources</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>Semantic Markup in EPUB 3</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <p>EPUB 3 books can be created from HTML5, and the same principles for creating well-formed, semantically sound web content apply. For an EPUB 3 author, there are two tools available: <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element" rel="nofollow" target="_blank" class="link-external">HTML 5 semantic elements</a>, and <a href="http://www.idpf.org/accessibility/guidelines/content/semantics/epub-type.php" rel="nofollow" target="_blank" class="link-external"><code>epub:type</code></a>.</p>
+<p>HTML 5 semantic markup gives meaning to otherwise anonymous containers or text structures. For example, you can use the <code>&lt;section&gt;</code> element to denote changes in topic, or <code>&lt;aside&gt;</code> to indicate content that is secondary in importance.</p>
+<p>EPUB 3 also provides semantics more suitable for publications. In addition to using HTML 5 semantic markup, you can describe the same HTML 5 markup as being chapters, or as a sidebar.</p>
+<p>Here is an example:</p>
+<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">section</span> <span class="hljs-attribute">epub:type</span>=<span class="hljs-value">"chapter"</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>Chapter 1: At the Start<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+    We always start with a good idea.
+    <span class="hljs-tag">&lt;<span class="hljs-title">aside</span> <span class="hljs-attribute">epub:type</span>=<span class="hljs-value">"sidebar"</span>&gt;</span>
+        In 2013, 9 out of 10 ideas were great.
+    <span class="hljs-tag">&lt;/<span class="hljs-title">aside</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">section</span>&gt;</span>
+</code></pre><p>The &quot;EPUB 3 Content Document&quot; article by Matt Garrish is a great place to start learning about semantics in EPUB 3:  <a href="http://epubzone.org/news/epub-3-content-documents" rel="nofollow" target="_blank" class="link-external">http://epubzone.org/news/epub-3-content-documents</a>.</p>
+<h2 id="further-reading">Further reading</h2>
+<ul>
+<li><a href="http://www.idpf.org/accessibility/guidelines/content/semantics/epub-type.php" rel="nofollow" target="_blank" class="link-external">&quot;The epub:type attribute&quot; - by IDPF</a></li>
+<li><a href="http://html5doctor.com/lets-talk-about-semantics/" rel="nofollow" target="_blank" class="link-external"> &quot;Let&#39;s Talk about Semantics&quot; - by Mike Robinson, html5doctor.com</a></li>
+<li><a href="http://www.idpf.org/epub/vocab/structure/" rel="nofollow" target="_blank" class="link-external"> &quot;EPUB 3 Structural Semantics Vocabulary&quot; - by IDPF</a></li>
+<li><a href="http://www.heliconbooks.com/article/epub3sem" rel="nofollow" target="_blank" class="link-external"> &quot;EPUB 3 semantic tags&quot; - by Helicon Books</a></li>
+</ul>
+
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/SemanticMarkupInEPUB3.md" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

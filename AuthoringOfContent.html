@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Authoring of Content | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Methods</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveLearning.html">Inclusive Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityPrinciples.html">Accessibility Principles</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Techniques.html">Techniques</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Metadata.html">Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessForAll.html">Access for All</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SchemaOrgAccessibilityProperties.html">Schema.org Accessibility Properties</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="LearnerNeedsAndPreferences.html">Learner Needs and Preferences</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="VideoContentAndLearning.html">Video Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AudioContentAndLearning.html">Audio Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="WebGamesAndSimulations.html">Web Games and Simulations</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="ModalDialogs.html">Accessible Modal Dialogs</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SVGAndAccessibility.html">SVG and Accessibility</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Sonification.html">Sonification</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: Authoring of Content" class="docs-template-topics-active">Authoring of Content</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CognitiveConsiderations.html">Cognitive Considerations</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>Authoring of Content</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <p>Inclusive learning content is a product of authoring tools and environments that promote the creation of content alternatives and preferences (see <a href="Metadata.html">Metadata</a>, <a href="LearnerNeedsAndPreferences.html">Learner needs and preferences</a>, <a href="AudioContentAndLearning.html">Audio content and learning</a>, <a href="VideoContentAndLearning.html">Video content and learning</a>). Consumers of open educational resources quickly become authors when they rework, edit, or remix existing content. It becomes critical, then, that these authoring environments both offer and gently suggest to authors the creation of layered, malleable content.</p>
+<h2 id="take-away">Take Away</h2>
+<p>Whenever possible, try to find an authoring tool that promotes the creation of alternatives and preferences.</p>
+<h2 id="case-study-1-oer-commons-authoring-environment">Case Study 1: OER Commons Authoring Environment</h2>
+<p>Floe and ISKME collaboratively designed an open education resource authoring environment that is easy to use; is inclusive to a diversity of different users; and both offers and gently suggests authors to create layered, malleable content.</p>
+<p>The authoring environment is sensitive to Floe&#39;s Learner Options (see <a href="LearnerNeedsAndPreferences.html">Learner needs and preferences</a>), and morphs its authoring environment according to the author&#39;s preferences. <a href="#Figure4">Figure 4</a> and <a href="#Figure5">Figure 5</a> show the editing environment in high contrast and with large interface elements, respectively.</p>
+<p>Moreover, the authoring environment provides an easy way for authors to add content layers to media, such as descriptions for images (see <a href="#Figure7">Figure 7</a>), and localized captions for video (see <a href="#Figure6">Figure 6</a>). When the media is initially added without these layers, a gentle status icon and editing affordances indicate to authors that such layers are missing, and silently guides them to adding said layers.</p>
+<figure>
+<a name="Figure1"></a>
+<a href="images/Oer-highfidelity-final_1writescreen.jpg"><img src="images/thumbs/500px-Oer-highfidelity-final_1writescreen.jpg" alt="Figure 1. Floe/OER Commons authoring environment, editing screen"></a>
+<figcaption>
+<em>Figure 1:</em> Floe/OER Commons authoring environment, editing screen.
+</figcaption>
+</figure>
+
+<figure>
+<a name="Figure2"></a>
+<a href="images/Oer-highfidelity-final_7describescreen.jpg"><img src="images/thumbs/500px-Oer-highfidelity-final_7describescreen.jpg" alt="Figure 2. Floe/OER Commons authoring environment, metadata input screen"></a>
+<figcaption>
+<em>Figure 2:</em> Floe/OER Commons authoring environment, metadata input screen.
+</figcaption>
+</figure>
+
+<figure>
+<a name="Figure3"></a>
+<a href="images/Oer-highfidelity-uio_highcontrast.jpg"><img src="images/thumbs/500px-Oer-highfidelity-uio_highcontrast.jpg" alt="Figure 3. Floe/OER Commons authoring environment, publishing screen"></a>
+<figcaption>
+<em>Figure 3:</em> Floe/OER Commons authoring environment, publishing screen.
+</figcaption>
+</figure>
+
+<figure>
+<a name="Figure4"></a>
+<a href="images/Oer-highfidelity-uio_highcontrast.jpg"><img src="images/thumbs/500px-Oer-highfidelity-uio_highcontrast.jpg" alt="Figure 4. Floe/OER Commons authoring environment, editing screen in high contrast"></a>
+<figcaption>
+<em>Figure 4:</em> Floe/OER Commons authoring environment, editing screen in high contrast
+</figcaption>
+</figure>
+
+<figure>
+<a name="Figure5"></a>
+<a href="images/Oer-highfidelity-uio_largeinterface-writescreen.jpg"><img src="images/thumbs/500px-Oer-highfidelity-uio_largeinterface-writescreen.jpg" alt="Figure 5. Floe/OER Commons authoring environment, editing screen with enlarged interface elements"></a>
+<figcaption>
+<em>Figure 5:</em> Floe/OER Commons authoring environment, editing screen with enlarged interface elements
+</figcaption>
+</figure>
+
+<figure>
+<a name="Figure6"></a>
+<a href="images/Oer_video.jpg"><img src="images/thumbs/500px-Oer_video.jpg" alt="Figure 6. Floe/OER Commons authoring environment, video media inserted"></a>
+<figcaption>
+<em>Figure 6:</em> Floe/OER Commons authoring environment, video media inserted
+</figcaption>
+</figure>
+
+<figure>
+<a name="Figure7"></a>
+<a href="images/Oer_image.jpg"><img src="images/thumbs/500px-Oer_image.jpg" alt="Figure 7. Floe/OER Commons authoring environment, image media inserted"></a>
+<figcaption>
+<em>Figure 7:</em> Floe/OER Commons authoring environment, image media inserted
+</figcaption>
+</figure>
+
+<h2 id="case-study-2-floe-chart-authoring-tool">Case Study 2: Floe Chart Authoring Tool</h2>
+<h3 id="the-challenge">The Challenge</h3>
+<p>Charts and graphs are highly visual representations of information, thus, they are often accessible only to individuals who can perceive and process information visually. Users/learners who rely on other modalities for accessing, understanding and using data representations often experience difficulty accessing chart information. Many of these charts and graphs are created by authoring tools or proprietary design software that do not support the creation of accessible outputs. As a result, the exported charts and graphs are flat images that are not accessible by screen readers and scanning software, and it is not possible to navigate their content using a keyboard. One solution that is often used to mitigate the inaccessibility of these visual tools is the addition of descriptive text or information tables along with each chart or graph. However, listening to descriptive text or tabular data does not provide the same rich experience as the visual expression of a chart or graph.</p>
+<h3 id="the-floe-chart-authoring-tool">The Floe Chart Authoring Tool</h3>
+<p>To address this challenge, the IDRC research team has focused on building a customizable chart authoring tool interface that will enable educational resource authors to create accessible, multi-modal charts/graphs and embed the output in their desired content. This project is ongoing and consists of several phases. This case study focuses on one aspect of the project: the authoring of an accessible and multi-modal pie chart. By starting with a fairly simple data set the research team wanted to set a foundation for future chart authoring work.</p>
+<p>At the time of writing this case study, the authoring tool can produce pie charts with two different types of sonifications and generated from data entered by chart creators. The charts are built entirely in open-source web technologies including Javascript and the browser speech and audio APIs. The IDRC research team expects to continue development to accommodate different styles of charts and different sonification approaches, along with the export, sharing and remixing of sonified charts in a web context.</p>
+<p>To access the latest demo of the Floe chart authoring tool please select <a href="http://build.fluidproject.org/chartAuthoring/demos/#" target="_blank" class="link-external">this link</a>.</p>
+<h3 id="the-floe-chart-authoring-tool-interface">The Floe Chart Authoring Tool Interface</h3>
+<p>This authoring interface consists of 4 main sections, two of which are editable. The first section includes two editable text fields - one for entering the chart title and one for a brief description. The second section contains an editable table of values from which the pie chart is generated. It allows user entry of segment text labels and their corresponding values. The third section contains both the visual and sonified versions of the pie chart that are generated from the information entered in the table. Each segment of the pie is presented with a different colour, a text label showing its percentage value, and an audio representation. The final section is an audio/visual legend that describes what each segment of the pie represents. In the legend, each segment colour is shown along with its corresponding text label and value in percent.</p>
+<p>At the code level, the tool makes use of open source libraries including the Fluid Project’s <a href="http://fluidproject.org/infusion.html" target="_blank" class="link-external">Infusion</a>, the Infusion-based <a href="http://flockingjs.org/" target="_blank" class="link-external">Flocking</a> audio synthesis library, and the <a href="https://d3js.org" target="_blank" class="link-external">D3</a> data visualization library. By using only open-source libraries and inherent advanced functionality of modern browsers such as speech and audio synthesis, the tool’s architecture models the same principles of openness embodied by OERs. The code is transparent, modular, modifiable and extensible.</p>
+<h3 id="default-state">Default State</h3>
+<p>A default pie chart is generated when the author first opens the tool interface, as seen in figure 8. This default pie chart will allow authors to discover the editable elements of the interface, enable them to experiment with the default pie chart sonification, and provide a preview of what the final pie chart will sound and look like.</p>
+<figure>
+<a name="Figure8"></a>
+<a href="images/Chart-Authoring-Default-State.png"><img src="images/thumbs/400px-Chart-Authoring-Default-State.png" alt="The default state for the Floe Chart Authoring Tool"></a>
+<figcaption>
+<em>Figure 8:</em> A default pie chart is created when the user first opens the Chart Authoring Tool interface.
+</figcaption>
+</figure>
+
+<h3 id="user-interaction">User Interaction</h3>
+<p>The Floe chart authoring environment is compatible with screen readers and can be navigated and interacted with by mouse, keyboard or other input devices.</p>
+<p>As the author enters (or edits, or deletes) text labels in the table, they are immediately updated in the legend. As the author enters (or edits, or deletes) numerical values in the table, the total value and corresponding percentages are calculated and updated in both the table and the legend.</p>
+<p>While the chart sonification plays, a black stroke appears around the corresponding pie segment as well as around the visual legend item, in order to show the connection between the audio and visual versions of the pie (shown in figure 9).</p>
+<figure>
+<a name="Figure9"></a>
+<a href="images/Chart-Authoring-Playing-Sonification.png"><img src="images/thumbs/400px-Chart-Authoring-Playing-Sonification.png" alt="The Floe Chart Authoring tool playing the sonification."></a>
+<figcaption>
+<em>Figure 9:</em> The chart sonification plays and a black border appears around the relevant segments in the pie chart and legend.
+</figcaption>
+</figure>
+
+<p>As shown in figure 10, selecting the reset button will erase all the information including the chart title and description as well as the data entered in the table.</p>
+<figure>
+<a name="Figure10"></a>
+<a href="images/Chart-Authoring-Reset-State.png"><img src="images/thumbs/400px-Chart-Authoring-Reset-State.png" alt="The Floe Chart Authoring tool in its reset state."></a>
+<figcaption>
+<em>Figure 10:</em> When the Chart Authoring Tool is reset, all information and data is erased.
+</figcaption>
+</figure>
+
+
+<h3 id="the-long-term-vision">The Long-Term Vision</h3>
+<ul>
+<li>Integration of the User Interface Options (UIO) panel with the Floe chart authoring tool. This will give chart authors the ability to customize their authoring environment based on their unique needs and preferences.</li>
+<li>Ample end-user configurability for sonifications as well as visual representations. In this way the authoring tool will itself produce artifacts that can be further modified or re-authored by the audience. So far, user testing validates our sense that for sonification to be useful it must accommodate a diverse range of end-user tastes and preferences, and that what works best for one user may not for another.</li>
+</ul>
+<h2 id="accessible-office-documents">Accessible Office Documents</h2>
+<p>The <a href="http://adod.idrc.ocad.ca/" rel="nofollow" target="_blank" class="link-external">Accessible Digital Office Document (ADOD) Project</a> offers guidance and techniques on how to author accessible documents using common office applications.</p>
+<h2 id="comparisons-of-authoring-environments">Comparisons of Authoring Environments</h2>
+<figure>
+<a href="images/Connexions-authoring-environment.jpg"><img src="images/thumbs/500px-Connexions-authoring-environment.jpg" alt="cnx.org OER authoring environment"></a>
+<figcaption>
+<em>Figure 11:</em> cnx.org OER authoring environment
+</figcaption>
+</figure>
+
+<figure>
+<a href="images/Wikipedia-authoring-environment.jpg"><img src="images/thumbs/500px-Wikipedia-authoring-environment.jpg" alt="MediaWiki authoring environment"></a>
+<figcaption>
+<em>Figure 12:</em> MediaWiki authoring environment.
+</figcaption>
+</figure>
+
+<figure>
+<a href="images/Wordpress-authoring-environment.jpg"><img src="images/thumbs/500px-Wordpress-authoring-environment.jpg" alt="Wordpress authoring environment"></a>
+<figcaption>
+<em>Figure 13:</em> Wordpress authoring environment.
+</figcaption>
+</figure>
+
+<p>ISKME:  More images of the OER Commons authoring environment are available at <a href="http://wiki.fluidproject.org/pages/viewpage.action?pageId=29950022" rel="nofollow" target="_blank" class="link-external">OER Commons authoring tool high fidelity mockups</a></p>
+<p>UI Options: <a href="http://wiki.fluidproject.org/display/fluid/%28Floe%29+UI+Options+Design+Mockups%2C+B.1" rel="nofollow" target="_blank" class="link-external">(Floe) UI Options Design Mockups</a></p>
+
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/AuthoringOfContent.html.md.handlebars" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

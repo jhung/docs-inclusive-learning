@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>WAI-ARIA | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveLearning.html" title="Methods">Methods</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Inclusive EPUB 3">Inclusive EPUB 3</span></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveLearning.html" title="Methods">Methods</a></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Inclusive EPUB 3">Inclusive EPUB 3</span></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Inclusive EPUB 3</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveEPUB3.html">Introduction to Inclusive EPUB 3</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SemanticMarkupInEPUB3.html">Semantic Markup in EPUB 3</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: WAI-ARIA" class="docs-template-topics-active">WAI-ARIA</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="VisualStyles.html">Visual Styles</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="GraphicsAndMultimedia.html">Graphics and Multimedia</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="ScriptingInEPUB3.html">Scripting in EPUB 3</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Mathematics.html">Mathematics</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="NarrationsAndTextToSpeech.html">Narrations and Text-to-Speech</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityMetadata.html">Accessibility Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="TestingAndValidation.html">Testing and Validation</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CaseStudyExemplar.html">Case Study: Exemplar</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="EPUB3Resources.html">EPUB 3 Resources</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>WAI-ARIA</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <p>While HTML 5 semantic markup and epub:type go a long way to help your publication&#39;s structure and content be understood by reader systems, there are times when WAI-ARIA  is needed to help convey relationships and function of elements on a page.</p>
+<p>WAI-ARIA is used primarily with scripting, but it can also be used to describe the roles and functions of elements on a page. For example, a list of text items used as a toolbar or navigation menu can be described using WAI-ARIA this way:</p>
+<pre class="highlight"><code class="hljs nix">&lt;nav&gt;
+    &lt;ul <span class="hljs-variable">class=</span><span class="hljs-string">"buttons"</span> <span class="hljs-variable">title=</span><span class="hljs-string">"Website navigation"</span>&gt;
+        &lt;li <span class="hljs-variable">id=</span><span class="hljs-string">"Home"</span> <span class="hljs-variable">aria-labelledby=</span><span class="hljs-string">"navigation_home"</span> <span class="hljs-variable">aria-controls=</span><span class="hljs-string">"my_content"</span> <span class="hljs-variable">aria-pressed=</span><span class="hljs-string">"false"</span> <span class="hljs-variable">tabindex=</span><span class="hljs-string">"0"</span> <span class="hljs-variable">role=</span><span class="hljs-string">"button"</span>&gt;Home&lt;/li&gt;
+        &lt;li <span class="hljs-variable">id=</span><span class="hljs-string">"Blog"</span> <span class="hljs-variable">aria-labelledby=</span><span class="hljs-string">"navigation_blog"</span> <span class="hljs-variable">aria-controls=</span><span class="hljs-string">"my_content"</span> <span class="hljs-variable">aria-pressed=</span><span class="hljs-string">"false"</span> <span class="hljs-variable">tabindex=</span><span class="hljs-string">"0"</span> <span class="hljs-variable">role=</span><span class="hljs-string">"button"</span>&gt;Blog&lt;/li&gt;
+        &lt;li <span class="hljs-variable">id=</span><span class="hljs-string">"About"</span> <span class="hljs-variable">aria-labelledby=</span><span class="hljs-string">"navigation_about"</span> <span class="hljs-variable">aria-controls=</span><span class="hljs-string">"my_content"</span> <span class="hljs-variable">aria-pressed=</span><span class="hljs-string">"false"</span> <span class="hljs-variable">tabindex=</span><span class="hljs-string">"0"</span> <span class="hljs-variable">role=</span><span class="hljs-string">"button"</span>&gt;About&lt;/li&gt;
+     &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;p <span class="hljs-variable">id=</span><span class="hljs-string">"navigation_home"</span> <span class="hljs-variable">class=</span><span class="hljs-string">"hide_offscreen"</span>&gt;Go Home&lt;/p&gt;
+&lt;p <span class="hljs-variable">id=</span><span class="hljs-string">"navigation_blog"</span> <span class="hljs-variable">class=</span><span class="hljs-string">"hide_offscreen"</span>&gt;Blog&lt;/p&gt;
+&lt;p <span class="hljs-variable">id=</span><span class="hljs-string">"navigation_about"</span> <span class="hljs-variable">class=</span><span class="hljs-string">"hide_offscreen"</span>&gt;About us&lt;/p&gt;
+</code></pre><p>Even though scripting is optional in EPUB 3, scripting can be used to add meaningful interactions to an otherwise static EPUB 3 book. If scripting is used in EPUB 3, WAI-ARIA can help describe content that is controlled or updated dynamically. For example, consider the case of a script on the page which behaves like a timer that begins counting down to zero once the user presses a button. Typically, the area that counts down the seconds would not be accessible to users using audio only, but with WAI-ARIA, you can describe the updating numbers this way:</p>
+<pre class="highlight"><code class="hljs nix">&lt;div <span class="hljs-variable">id=</span><span class="hljs-string">"region1Container"</span>&gt;
+    &lt;label <span class="hljs-variable">id=</span><span class="hljs-string">"live1Label"</span> <span class="hljs-variable">for=</span><span class="hljs-string">"liveregion1"</span>&gt;Seconds left&lt;/label&gt;:
+    &lt;div <span class="hljs-variable">id=</span><span class="hljs-string">"liveregion1"</span> <span class="hljs-variable">class=</span><span class="hljs-string">"region"</span> <span class="hljs-variable">aria-relevant=</span><span class="hljs-string">"all"</span> <span class="hljs-variable">aria-atomic=</span><span class="hljs-string">"true"</span>
+        <span class="hljs-variable">aria-live=</span><span class="hljs-string">"assertive"</span> <span class="hljs-variable">aria-labelledby=</span><span class="hljs-string">"live1Label"</span> <span class="hljs-variable">role=</span><span class="hljs-string">"timer"</span>&gt;XXX&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p>WAI-ARIA goes a long way to help users and reader systems understand the relationships and interactions between contents on a page, especially if the EPUB 3 book is using scripting.</p>
+<p>##WAI-ARIA and Math##
+Math notation and equations is traditionally challenging to make accessible and comprehensible, but this can be improved thanks to some WAI-ARIA markup. With WAI-ARIA, math content can be:</p>
+<ul>
+<li>given a literal translation to clarify notation</li>
+<li>elaborated with longer descriptions and definitions to give an additional avenue for understanding</li>
+</ul>
+<p>Refer to the <a href="Mathematics.html">Mathematics</a> section for techniques to adding inclusive math content to EPUB.</p>
+<h2 id="further-reading-">Further reading:</h2>
+<ul>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.w3.org/WAI/intro/aria"> WAI-ARIA W3C Web Accessibility Initiative Aria Overview</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"> &quot;Highly Accessible Interactive EPUB&quot; - by Liza Daly, Threepress / Ibis Reader</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.idpf.org/accessibility/guidelines/content/script/aria.php"> &quot;WAI-ARIA &amp; Custom Controls&quot; - by IDPF</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"> &quot;ARIA&quot; - by Mozilla Developer Network</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://oaa-accessibility.org/examples/"> &quot;Open AJAX Examples&quot; - by Open Ajax Alliance</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://alistapart.com/article/the-accessibility-of-wai-aria"> &quot;The Accessibility of WAI-ARIA&quot; - by Detlev Fischer, A List Apart</a></li>
+</ul>
+
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/WAI-ARIA.md" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Sonification | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Methods</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveLearning.html">Inclusive Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityPrinciples.html">Accessibility Principles</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Techniques.html">Techniques</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Metadata.html">Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessForAll.html">Access for All</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SchemaOrgAccessibilityProperties.html">Schema.org Accessibility Properties</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="LearnerNeedsAndPreferences.html">Learner Needs and Preferences</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="VideoContentAndLearning.html">Video Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AudioContentAndLearning.html">Audio Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="WebGamesAndSimulations.html">Web Games and Simulations</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="ModalDialogs.html">Accessible Modal Dialogs</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SVGAndAccessibility.html">SVG and Accessibility</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: Sonification" class="docs-template-topics-active">Sonification</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AuthoringOfContent.html">Authoring of Content</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CognitiveConsiderations.html">Cognitive Considerations</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>Sonification</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <h2 id="what-is-sonification-">What is Sonification?</h2>
+<p>Sonification is a general term for conveying information or data through non-speech audio &mdash; similar to how the term &quot;visualization&quot; expresses the concept of conveying information or data graphically. Alert sounds for events such as receiving new email or program errors are simple forms of sonification commonly used in user interfaces for computers and other devices.</p>
+<p><em>Data sonification</em> is an analogous audio technique to <em>data visualization</em> where structured data is converted into sound to try to:</p>
+<ul>
+<li>communicate aspects of often-complex information clearly and efficiently</li>
+<li>support specific analysis of aspects of the data</li>
+<li>show patterns and relationships in the data</li>
+</ul>
+<h2 id="the-case-for-sonification-in-open-educational-resources">The Case for Sonification in Open Educational Resources</h2>
+<p>While sonification is traditionally a theoretical and experimental area, it has rich potential as a means of supporting <a href="/Techniques.html#AllowTheCreationOfVariationsAndEnhancements">&quot;the creation of variations and enhancements&quot;</a> in OER.</p>
+<p>Sonification&#39;s most obvious audience would seem to be the learner with visual impairments, but it can also be appreciated by those with cognitive impairments, learning disabilities, or a preference for audio presentation. It can help supplement data visualizations or open new areas for discussion, research and learning.</p>
+<h3 id="floe-work">Floe Work</h3>
+<p>The Floe team is experimenting with sonification and building authoring tools to support it as part of the project&#39;s work in exploring multimodal content creation and presentation in OERs.</p>
+<p>The <a href="http://build.fluidproject.org/chartAuthoring/demos/" target="_blank" class="link-external">Floe chart authoring tool</a> is a multimodal authoring tool that produces three forms of content from user-entered data:</p>
+<ul>
+<li>A pie chart (data visualization)</li>
+<li>A data table that also functions as the pie chart&#39;s legend</li>
+<li>A sonified form of the data (data sonification)</li>
+</ul>
+<h3 id="sonification-visualization-and-underlying-data">Sonification, Visualization and Underlying Data</h3>
+<p>Placing sonification alongside the more familiar paradigm of data visualization explicitly surfaces that charts and graphs are a derived representation of a data set.</p>
+<p>Thus, one way OERs can support diverse learners and meet the <a href="/AccessiblityPrinciples.html">Accessibility Principles</a> of perceivability and understandability is to make underlying data sets available wherever possible when presenting information in charts, graphs or other derived forms.</p>
+<p>When underlying data is available in OERs, this allows the possibility for others to transform the OER in ways the content creator may not have envisioned in order to best serve individual learner needs.</p>
+<h2 id="exploring-sonification-and-emerging-best-practices">Exploring Sonification and Emerging Best Practices</h2>
+<p>Sonification research to date has been highly experimental, and we still aren&#39;t certain how best to use sonification as part of building inclusive OERs. However, some general guidelines that have emerged:</p>
+<ul>
+<li>As with other forms of presentation, support the possibility of adaptation to individual learner needs by building with open frameworks and approaches, and preserving access to source data.</li>
+<li>Explore various facets of audio perception when building sonifications, such as:<ul>
+<li>pitch</li>
+<li>loudness</li>
+<li>duration</li>
+<li>spatial arrangement (left / right, surround / virtual sound environments)</li>
+</ul>
+</li>
+<li>Build tools with the expectation that diverse users will need to be able to customize sonification preferences in the same way they need the ability to customize visual preferences.</li>
+</ul>
+<h3 id="sonification-usability-experimenting-with-a-pie-chart">Sonification Usability - Experimenting with a Pie Chart</h3>
+<p>This research aimed to explore how a pie chart could be represented with sound in order to provide users/learners with multiple modes of understanding, accessing and using the information. A variety of sonification approaches to representing small data sets were selected by the community and evaluated through user testing. As part of the participatory design approach of this research, user feedback was sought not only on the specific approaches to sonifying data, but on the general concept of sonification and how it can be used to augment one’s daily experiences. Through analyzing the collected data, the following themes were identified. Note that these themes emerged through limited testing with a small data set represented by a pie chart, and further research is required and is ongoing in this field. However, the ideas presented here can be applied more broadly to inform a design approach to the sonification of data in general.</p>
+<h4 id="user-preference-for-style-of-sonification-is-shaped-by-context-of-information-consumption">User preference for style of sonification is shaped by context of information consumption</h4>
+<p>Users noted that the context in which they were consuming information might determine their preference for a particular form of sonification. Several users distinguished between contexts where deriving precise values would be important (e.g. a math exam or business course) and contexts where it would be sufficient to know only approximate values (e.g. when reading a newspaper article).</p>
+<p>Other users gave examples of contexts where they may be distracted (e.g. riding a bike, or washing dishes while listening to changes in their stock portfolio). In this context they would prefer to have an option for a less complicated sonification approach, such as using a consistent tone that does not require counting the beats or memorizing different types of sound. In this case, users could approximate the relative size of each piece of information by comparing the duration of the sound segments.</p>
+<h4 id="users-expect-contextual-instructions-to-aid-interpretation-of-sonified-data">Users expect contextual instructions to aid interpretation of sonified data</h4>
+<p>Many users provided feedback that it was only after listening to the sonifications several times that they were able to interpret the strategies used in different approaches. Users expected more instruction as to what they should be listening for. They also recognized that interpreting different sonification approaches was a skill they could improve on over time. A comparative analogy made by some screen reader users was that over time they have been able to increase the speech rate setting in their screen reader software.</p>
+<h4 id="user-preferences-for-sonification-are-varied-and-customization-is-desired">User preferences for sonification are varied and customization is desired</h4>
+<p>A desire to customize, control or change aspects of the sonification was repeatedly expressed. This included the ability to control the duration of the entire sound piece or its individual segments, modify the density and rate of beats, choose different types of sound, or personalize the sonification experience based on their unique capabilities such as by changing the pitch, loudness, spatial arrangements, etc.</p>
+<h4 id="sonification-is-new-to-many-users-resulting-in-a-learning-curve-for-most">Sonification is new to many users resulting in a learning curve for most</h4>
+<p>Although many users were able to interpret the sonified information to some degree, comprehending chart data via sound was a new experience for most. In several cases users expressed the need for a gradual and sequential learning process to ensure familiarity with different concepts and approaches to sonification. Users felt that, given time to gain some experience with and to learn the vocabulary of sonification, they would be able to more effectively interpret sonified data and choose their preferred method of consuming information through sound. The design approach to sonification must support this learning curve.</p>
+<p>For further details regarding the user testing process and results please visit the article &quot;<a href="https://wiki.fluidproject.org/pages/viewpage.action?pageId=89063433" target="_blank" class="link-external">User Testing of Sonified Pie Chart Data</a>&quot; on the Fluid Wiki.</p>
+<h2 id="tools-technology-and-examples">Tools, technology and examples</h2>
+<ul>
+<li><p>The Floe <a href="http://build.fluidproject.org/chartAuthoring/demos/" target="_blank" class="link-external">Floe chart authoring tool</a> includes sonification components built using open web technologies and the <a href="http://flockingjs.org/" target="_blank" class="link-external">Flocking</a> audio synthesis framework.</p>
+</li>
+<li><p>The <a href="http://www.open-shelf.ca/columns/sonification-special-issue/" target="_blank" class="link-external">Sonification special issue</a> of <a href="http://www.open-shelf.ca/" target="_blank" class="link-external">Open Shelf</a> includes a number of examples sonification from the library world.</p>
+</li>
+<li><p>The <a href="http://sonify.psych.gatech.edu/" target="_blank" class="link-external">Georgia Tech Sonification Lab</a> has created a number of tools as part of their research, such as the <a href="http://sonify.psych.gatech.edu/research/sonification_sandbox/index.html" target="_blank" class="link-external">Sonification Sandbox</a></p>
+</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><p>The <a href="https://wiki.fluidproject.org/display/fluid/%28Floe%29+Sonification" target="_blank" class="link-external">Floe Sonification wiki page</a> and its subpages and links include much more information, including a literature review.</p>
+</li>
+<li><p>The 2011 <a href="http://sonification.de/handbook/" target="_blank" class="link-external">Sonification Handbook</a> is an open access book with contributions from many researchers.</p>
+</li>
+<li><p>The <a href="http://www.icad.org/" target="_blank" class="link-external">International Community for Auditory Display</a> brings together researchers from many different fields interested in sonification.</p>
+</li>
+<li><p>The <a href="http://sonify.psych.gatech.edu/" target="_blank" class="link-external">Georgia Tech Sonification Lab</a> is a research group focused on sonification.</p>
+</li>
+</ul>
+
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/Sonification.md" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

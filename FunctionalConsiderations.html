@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Functional Considerations | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveLearning.html" title="Methods">Methods</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Accessible Standardized Testing">Accessible Standardized Testing</span></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveLearning.html" title="Methods">Methods</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Accessible Standardized Testing">Accessible Standardized Testing</span></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Accessible Standardized Testing</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibleStandardizedTesting.html">Introduction to Accessible Standardized Testing</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="GeneralGuidelines.html">General Guidelines</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: Functional Considerations" class="docs-template-topics-active">Functional Considerations</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="StandardizedTestTypes.html">Standardized Test Types</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="StandardizedTestTools.html">Standardized Test Tools</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                        
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>Functional Considerations</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <p>There are many ways to assure a standardized test is designed in a way that accommodates a broader range of users with or without special needs. Some of these considerations are listed below.</p>
+<h2 id="content-presentation">Content Presentation</h2>
+<p>The way the test content is presented and delivered to students affects their performance in that test. Students with visual, hearing, and learning disabilities are much more able to engage in the content when it is presented in a form they can understand. Thus, the following points should be considered during design and delivery of a test.</p>
+<h3 id="color">Color</h3>
+<ul>
+<li>Color should not be used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.</li>
+<li>Provide different contrast options</li>
+<li>Foreground and background colors can be selected by the user.</li>
+<li>Complex backgrounds that interfere with readability of overlying text should be avoided.</li>
+</ul>
+<h3 id="text-size">Text size</h3>
+<ul>
+<li>Except for captions and rendered text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.</li>
+<li>When type is enlarged on a screen, students may need to scroll back and forth, or up and down to read an entire test item.</li>
+<li>For blocks of text, make sure the width is no more than 80 characters or glyphs (40 if CJK), text is not justified (aligned to both the left and the right margins), and line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.</li>
+<li>Provide alternative text or “alt tags” for images, illustrations and diagrams.</li>
+</ul>
+<h3 id="images-diagrams">Images &amp; diagrams</h3>
+<ul>
+<li>When enlarged, images may become very pixilated and difficult to view. Students who use hand held magnifiers or monocular devices when working on paper may not be able to use these devices on a screen because of the distortion of computer images.</li>
+<li>If a graphics user interface is used (versus text based), students will not have the option of altering print size on the screen.</li>
+<li>Provide tactile graphics (e.g.; 3-D topographical maps, 2-D raised line drawings) if needed.</li>
+</ul>
+<h3 id="audio">Audio</h3>
+<ul>
+<li>Provide audio amplification devices (e.g., hearing aids) if needed.</li>
+<li>Try to avoid background audio.<ul>
+<li>If you need background audio, give users control to turn it off or at least make it four times quieter than the foreground speech content (20 decibels lower).</li>
+</ul>
+</li>
+<li>If there is any audio on a web page that plays automatically for more than 3 seconds, provide either a mechanism to pause or stop the audio, or a mechanism to control audio volume independently from the overall system volume level.</li>
+</ul>
+<h3 id="alternative-means">Alternative means</h3>
+<ul>
+<li>Screen reader</li>
+<li>Oral reading (either by an adult or a tape)</li>
+<li>Braille and Nemeth Code (a specific type of Braille used for math and science notations)</li>
+<li>Sign language<ul>
+<li>Provide a script for sign language interpreters to prevent revealing some answers.</li>
+</ul>
+</li>
+<li>Include accommodations such as screen magnification, text to speech audio, and switch systems.</li>
+</ul>
+<h3 id="auto-updating-content-and-navigational-structure">Auto updating content and navigational structure</h3>
+<ul>
+<li>For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there should be a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.</li>
+<li>When any component receives focus, it should not initiate a change of context.</li>
+<li>Changing the setting of any user interface component  should not automatically cause a change of context  unless the user has been advised of the behavior before using the component.</li>
+<li>For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential.</li>
+<li>Navigational mechanisms that are repeated on multiple pages within a set of pages should occur in the same relative order each time they are repeated, unless a change is initiated by the user.</li>
+</ul>
+<h2 id="response-options">Response Options</h2>
+<p>Students should be provided with different ways to respond to assessment questions.</p>
+<ul>
+<li>Use of an augmentative communication device or other assistive technology (AT)</li>
+<li>Use of a brailler</li>
+<li>Making all functionality available from a keyboard.</li>
+<li>Capacity for any student to select calculator or dictionary option.</li>
+<li>Capacity to turn off monitor/ blank screen temporarily.</li>
+</ul>
+<h2 id="test-setting">Test Setting</h2>
+<p>The setting affects either where a test is taken or the way in which the environment is set up. Changing the environment is especially helpful to students who are easily distracted.</p>
+<ul>
+<li>Administering the test individually if the response method distracts other students</li>
+<li>Testing in separate rooms or small groups</li>
+<li>Adjusting the lighting<ul>
+<li>Consider the glare from windows and overhead lights</li>
+</ul>
+</li>
+<li>Adjusting the furniture based on student&#39;s needs and AT devices</li>
+<li>Providing noise buffers such as headphones, earphones, or earplugs for students whom get distracted by surrounding noise.</li>
+<li>Providing soothing music for students who cannot concentrate in quiet environments.</li>
+</ul>
+<h2 id="test-timing-and-scheduling">Test timing and scheduling</h2>
+<p>Allow flexibility in the timing of an assessment. Generally, these are chosen for students who may need more time to process information or need breaks throughout the testing process to regroup and refocus.</p>
+<ul>
+<li>Extend the test time<ul>
+<li>When an authenticated session expires, the user can continue the activity without loss of data after re-authenticating.</li>
+</ul>
+</li>
+<li>Allow for multiple or frequent breaks<ul>
+<li>Students should be able to submit their completed responses and be able to log out and back on again at another time, starting at the place where they previously left off.</li>
+</ul>
+</li>
+<li>Complete the test over multiple days<ul>
+<li>Careful scheduling is needed for multiple test sessions to make sure that computers are available and the test security is not an issue if students who have responded to the same test items have opportunities to interact with each other between test sessions.</li>
+</ul>
+</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.ateassessments.org/">http://www.ateassessments.org/</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.tbs-sct.gc.ca/ws-nw/wa-aw/wa-aw-assess-methd-eng.asp">http://www.tbs-sct.gc.ca/ws-nw/wa-aw/wa-aw-assess-methd-eng.asp</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.cehd.umn.edu/NCEO/onlinepubs/Policy15.htm">http://www.cehd.umn.edu/NCEO/onlinepubs/Policy15.htm</a></li>
+<li><a rel="nofollow" target="_blank" class="link-external" href="http://www.parentcenterhub.org/repository/assessment-accommodations/">http://www.parentcenterhub.org/repository/assessment-accommodations/</a></li>
+</ul>
+
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/FunctionalConsiderations.md" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

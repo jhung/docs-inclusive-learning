@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Accessible Modal Dialogs | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Methods</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveLearning.html">Inclusive Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityPrinciples.html">Accessibility Principles</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Techniques.html">Techniques</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Metadata.html">Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessForAll.html">Access for All</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SchemaOrgAccessibilityProperties.html">Schema.org Accessibility Properties</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="LearnerNeedsAndPreferences.html">Learner Needs and Preferences</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="VideoContentAndLearning.html">Video Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AudioContentAndLearning.html">Audio Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="WebGamesAndSimulations.html">Web Games and Simulations</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: Accessible Modal Dialogs" class="docs-template-topics-active">Accessible Modal Dialogs</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SVGAndAccessibility.html">SVG and Accessibility</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Sonification.html">Sonification</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AuthoringOfContent.html">Authoring of Content</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CognitiveConsiderations.html">Cognitive Considerations</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>Accessible Modal Dialogs</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <h2 id="what-are-modal-dialogs">What are Modal Dialogs</h2>
+<p>A modal dialog is an interaction where the user is forced to take an action required before proceeding to another activity. Typically modal dialogs are visually displayed as a child window which interrupts the user&#39;s workflow until it is addressed.</p>
+<p>Typically these are windows or &quot;pop-ups&quot; which block any further interaction until a control (like an &quot;OK&quot; button) is selected.</p>
+<figure>
+<a href="/images/Modal-Dialog-example.jpg"><img src="/images/thumbs/400px-Modal-Dialog-example.jpg" alt="Screen capture of a modal login dialog."></a>
+<figcaption>
+<em>Figure 1:</em> A modal dialog is a child window that blocks all interaction with other content until the dialog is dismissed. Source: <a href="http://www.shop.ca/">http://www.shop.ca/</a>
+</figcaption>
+</figure>
+
+<h2 id="why-should-you-care-">Why Should You Care?</h2>
+<p>Modal interactions, such as modal dialogs, should be used cautiously because they create a cognitive burden by:</p>
+<ol>
+<li>causing the opposite result since dialogs are often dismissed without consideration <sup><a href="#footnote_1" aria-label="Footnote 1">1</a></sup>,</li>
+<li>interrupting workflow and making the task longer to complete <sup><a href="#footnote_2" aria-label="Footnote 2">2</a></sup>, and</li>
+<li>increasing error rate by distracting the user <sup><a href="#footnote_3" aria-label="Footnote 3">3</a></sup>.</li>
+</ol>
+<p>The way a dialog is implemented can also cause problems by:</p>
+<ol>
+<li>being positioned to obscure content, or placed off-screen where it can&#39;t be fully seen,</li>
+<li>requiring careful focus management,</li>
+<li>creating undesired results when the browser&#39;s Back button is used (i.e. does the back button reverse the dialog, or does it go backward in browser history?), and</li>
+<li>having poor accessibility and support for assistive technologies.</li>
+</ol>
+<h2 id="why-are-modal-interactions-typically-inaccessible-">Why are Modal Interactions Typically Inaccessible?</h2>
+<p>Modal interactions are often considered inaccessible. The most common issues are:</p>
+<ol>
+<li>Poor communication of intention (semantics) for assistive technologies - is it a dialog or just another paragraph?</li>
+<li>Improper handling of focus control, allowing the user is able to access content intended to be blocked.</li>
+<li>Dialogs are not announced to assistive technologies.</li>
+<li>Unclear indication which content is blocked from interaction.</li>
+<li>Insufficient contrast between the dialog container and the outlying content - a faded background or alpha channel blending may not be sufficient contrast (Reference <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">WCAG 2.0 Contrast</a>).</li>
+</ol>
+<p>Some of these accessibility issues can be overcome through proper implementation which will be discussed later in this article.</p>
+<h2 id="using-modal-containers">Using Modal Containers</h2>
+<p>A popular use of a modal interaction is to use a modal container which focuses the user to a particular interaction path while maintaining their context. For example, an image gallery lightbox is a popular implementation of such an interaction.</p>
+<figure>
+<a href="/images/Modal-Dialog-lightbox.png"><img src="/images/thumbs/300px-Modal-Dialog-lightbox.png" alt="Screen capture of a lightbox."></a>
+<figcaption>
+<em>Figure 2:</em> Screen capture of a lightbox dialog displaying a larger image amoung smaller thumbnails of images. Source: <a href="http://fancybox.net/">http://fancybox.net/</a>
+</figcaption>
+</figure>
+
+<p>Like modal dialogs, modal containers should be used cautiously because of the accessibility issues they may cause (see <a href="#Why_are_Modal_Interactions_Typically Inaccessible?">Why are Modal Interactions Typically Inaccessible?</a>).</p>
+<p>Generally speaking, if a lot of content or interaction is being done through a modal interaction, consider implementing the interaction outside of a modal and on its own web page. This helps make it clear to all users what the interaction should be - a modal interface should not be a substitute for content that is better suited for separate web page.</p>
+<h2 id="decision-table-for-using-modal-interactions-and-alternatives">Decision Table for Using Modal Interactions and Alternatives</h2>
+<p>The following table can help you decide when to use a modal interaction.</p>
+<table>
+    <tr>
+        <th>Forced Interaction</th>
+        <th>Interaction Complexity</th>
+        <th>Number of Choices</th>
+        <th>Solution</th>
+    </tr>
+    <tr>
+        <td>
+            No
+        </td>
+        <td>
+            Simple
+        </td>
+        <td>
+            2+
+        </td><br>        <td>
+            Menu, expanding container, accordion, drawer
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Yes
+        </td>
+        <td>
+            Complex
+        </td>
+        <td>
+            2+
+        </td><br>        <td>
+            Separate web page
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Yes
+        </td>
+        <td>
+            Simple
+        </td>
+        <td>
+            1
+        </td><br>        <td>
+            Alert box
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Yes
+        </td>
+        <td>
+            Simple
+        </td>
+        <td>
+            2 to 3
+        </td><br>        <td>
+            Modal dialog
+        </td>
+    </tr>
+</table>
+
+<p>If it is not necessary to force the user along an interaction path,
+then consider using a collapsing menu, or an expandable container like an accordion or drawer.</p>
+<figure>
+<img src="/images/Modal-Dialog-accordion.png" alt="Screen capture of an accordion panel.">
+<figcaption>
+<em>Figure 3:</em> An accordion panel allows content to be visually hidden and shown on-demand. Source: <a href="https://jqueryui.com/accordion/">https://jqueryui.com/accordion/</a>
+</figcaption>
+</figure>
+
+<p>If it is necessary to force the user along an interaction path, and the message is not simple or contains a lot of choices or interaction,
+then consider using a separate web page.</p>
+<p>If the purpose of the modal is to deliver an important message to the user,
+then consider using an alert box.</p>
+<p>If it is necessary to force the user along an interaction path, and the message is simple and has a small number of clearly marked choices,
+then consider using a modal dialog.</p>
+<h2 id="suggested-acceptable-use-of-modal-dialogs">Suggested Acceptable Use of Modal Dialogs</h2>
+<p>Given the issues outlined above, when is it appropriate to use a modal dialog? Since dialogs are often ignored and dismissed without consideration (which can cause undesired results), and disrupt the user (that lead to other problems), dialogs are ideally used for short succinct interactions where it is desirable to not take the user out of their context.</p>
+<p>Examples of appropriate use of dialogs:</p>
+<ul>
+<li>User attempts to navigate away from a page where they have entered information.</li>
+<li>An action has been chosen which deletes information.</li>
+<li>A system error or event which has resulted in data loss.</li>
+<li>Creating a user account or user login.</li>
+</ul>
+<p>Any other use of a modal-like interaction should be done carefully.</p>
+<h2 id="tips-for-successful-modal-dialogs">Tips for Successful Modal Dialogs</h2>
+<p>If the purpose of a dialog is to force the user to take immediate action - success is achieved when the user understands the message and their choice causes expected results. Effort should be made to make this interaction as quick and simple as possible to reduce the possibility of errors improve user experience.</p>
+<ol>
+<li>Choices should be clearly indicated with labels that communicate the outcome.</li>
+<li>Short messages increases the likelihood it will be read and understood.</li>
+<li>Limit the number of choices and interactive components.</li>
+<li>Avoid complicated or wordy jargon.</li>
+<li>Use controls appropriate for the interaction - i.e. don&#39;t have a &quot;Cancel&quot; or &quot;Close&quot; option if the purpose is to have the user make an affirmative choice.</li>
+<li>Avoid using labels which are not appropriate or assumes a user&#39;s state. For example labels like &quot;Okay&quot;, &quot;I got it&quot;, &quot;Get me out of here&quot; may not be appropriate or understood - keep labels simple and to-the-point.</li>
+<li>Clearly indicate focus with sufficient contrast and style.</li>
+<li>Avoid using words like &quot;Click&quot; or &quot;Press&quot; when giving instructions.</li>
+</ol>
+<h2 id="accessibility-guidelines-for-implementing-modal-dialogs">Accessibility Guidelines for Implementing Modal Dialogs</h2>
+<p>To improve the semantics and accessibility of modal dialogs, the following HTML and ARIA markup is recommended.</p>
+<h3 id="html-structure-for-modal-dialogs">HTML Structure for Modal Dialogs</h3>
+<ul>
+<li><code>&lt;article&gt;</code>: Contain the dialog within an <code>&lt;article&gt;</code> element to help distinguish the dialog from other content in the</li>
+<li><code>&lt;h1&gt;</code>: The header describing the dialog. Including this header is an important landmark for assistive technologies.</li>
+<li><code>&lt;p&gt;</code>, <code>&lt;div&gt;</code>, or <code>&lt;span&gt;</code>: The content of the dialog.</li>
+<li><code>&lt;input type=&quot;button&quot;&gt;</code>: The choices used to dismiss the dialog should be buttons.</li>
+</ul>
+<h3 id="aria-for-modal-dialogs">ARIA for Modal Dialogs</h3>
+<ul>
+<li><code>aria-hidden</code>: set to <code>true</code> when the dialog is not perceivable, set to <code>false</code> when the dialog is perceivable.</li>
+<li><code>aria-labelledby</code>: the <code>&lt;article&gt;</code> container should be labelled by the <code>&lt;header&gt;</code> element.</li>
+<li><code>aria-describedby</code>: the <code>&lt;article&gt;</code> container should be described by the contents of the dialog.</li>
+<li><code>role=&quot;dialog&quot;</code> or <code>role=&quot;alertdialog&quot;</code>: the <code>&lt;article&gt;</code> container role should have either one of these roles.<ul>
+<li><code>alertdialog</code> is a special case where the outcome may cause a problem or data loss. For example, the user has attempted to delete an email message.</li>
+<li><code>dialog</code> is used for other cases like when the user is inputing information, or making a choice that can be reverted.</li>
+</ul>
+</li>
+</ul>
+<h3 id="managing-focus">Managing Focus</h3>
+<p>To restrict focus to just the modal dialog, you will need to use Javascript to put focus on the dialog container (i.e. the <code>&lt;article&gt;</code> element) and then force focus back onto the dialog if the focus leaves.</p>
+<p>The article <a href="https://www.nczonline.net/blog/2013/02/12/making-an-accessible-dialog-box/">&quot;Making an accessible dialog box&quot; by Nicholas C. Zakas</a> outlines the Javascript required to manage the dialog interaction correctly.</p>
+<h3 id="modal-dialog-markup-example">Modal Dialog Markup Example</h3>
+<pre class="highlight"><code class="hljs nix">&lt;article <span class="hljs-variable">role=</span><span class="hljs-string">"dialog"</span> <span class="hljs-variable">aria-labelledby=</span><span class="hljs-string">"dialogTitle"</span> <span class="hljs-variable">aria-describedby=</span><span class="hljs-string">"dialogContents"</span> <span class="hljs-variable">aria-hidden=</span><span class="hljs-string">"false"</span>&gt;
+    &lt;h1 <span class="hljs-variable">id=</span><span class="hljs-string">"dialogTitle"</span>&gt;Send email without a subject?&lt;/h1&gt;
+    &lt;p <span class="hljs-variable">id=</span><span class="hljs-string">"dialogContents"</span>&gt;Are you sure you want to send the email without a subject?&lt;/p&gt;
+    &lt;input <span class="hljs-variable">type=</span><span class="hljs-string">"button"</span> <span class="hljs-variable">value=</span><span class="hljs-string">"No"</span>&gt;
+    &lt;input <span class="hljs-variable">type=</span><span class="hljs-string">"button"</span> <span class="hljs-variable">value=</span><span class="hljs-string">"Yes"</span>&gt;
+&lt;/article&gt;
+</code></pre><h2 id="modal-forms">Modal Forms</h2>
+<p>Sometimes it is desirable to put a form within a modal dialog like a login prompt, or filling out a contact information form.</p>
+<p>In such situations keep the interaction simple, and only use a small number of input fields (4 fields maximum).</p>
+<h2 id="implementation-resources">Implementation Resources</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_dialog_role">Using the dialog role</a>, Mozilla Devloper Network.</li>
+<li><a href="https://www.smashingmagazine.com/2014/09/making-modal-windows-better-for-everyone/">Making Modal Windows Better for Everyone</a>, Smashing Magazine 2014.</li>
+<li><a href="https://www.marcozehe.de/2015/02/05/advanced-aria-tip-2-accessible-modal-dialogs/">Advanced Aria Tip 2 Accessible Modal Dialogs</a>, Marco&#39;s Accessibility Blog 2015.</li>
+<li><a href="https://jqueryui.com/dialog/#default">jQuery UI Modal Dialog</a>, jQuery UI.</li>
+</ul>
+<h2 id="implementation-alternatives">Implementation Alternatives</h2>
+<ul>
+<li><a href="https://jqueryui.com/accordion/">jQuery UI Accordion</a>, jQuery.</li>
+<li><a href="http://oaa-accessibility.org/example/1/">Alert role example using an ARIA alert box</a>, Open Ajax Alliance.</li>
+<li><a href="http://www.oaa-accessibility.org/examplep/accordian1/">Tab Panel: Accordian</a>, Open Ajax Alliance.</li>
+<li><a href="http://www.oaa-accessibility.org/example/20/">Hide/Show Region</a>, Open Ajax Alliance.</li>
+</ul>
+<h2 id="footnotes-">Footnotes:</h2>
+<ol>
+<li><span id="footnote_1"></span>R. Bohme and S. Kopsell. <a href="http://dmrussell.net/CHI2010/docs/p2403.pdf">Trained to accept? A field experiment on consent dialogs</a>. CHI, 2010.</li>
+<li><span id="footnote_2"></span>Kristen H. Goodell, Caroline G.L. Cao, and Steven D. Schwaitzberg. <a href="http://online.liebertpub.com/doi/abs/10.1089/lap.2006.16.94">Effects of Cognitive Distraction on Performance of Laparoscopic Surgical Tasks </a>. Journal of Laparoendoscopic &amp; Advanced Surgical Techniques. April 2006, 16(2): 94-98. doi:10.1089/lap.2006.16.94.</li>
+<li><span id="footnote_3"></span>Elizabeth Flynn. <a href="https://www.ncbi.nlm.nih.gov/pubmed/10683129">Impact of interruptions and distractions on dispensing errors in an ambulatory care pharmacy.</a>. American Journal of Health-System Pharmacy. 1999 Jul 1;56(13):1319-25.</li>
+</ol>
+
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/ModalDialogs.md" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>

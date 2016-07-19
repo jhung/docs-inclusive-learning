@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Audio Content and Learning | Inclusive Learning Design Handbook</title>
+        <link rel="icon" type="image/png" href="images/favico.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
+        <link rel="stylesheet" href="css/highlightjs-custom.css">
+        <link rel="stylesheet" href="lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/Enactors.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
+        <link rel="stylesheet" type="text/css" href="lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+        <link rel="stylesheet" href="css/docs-inclusive-learning.css">
+
+        <script type="text/javascript" src="lib/infusion/infusion-uio.js"></script>
+        <script type="text/javascript" src="js/DocsCore.js"></script>
+        <script type="text/javascript" src="lib/jqueryui/jquery-ui.min.js"></script>
+    </head>
+
+    <body class="docs-template docs-inclusiveLearning docs-core-sidebar-expanded">
+
+        <div class="container docs-template-container">
+
+            <!-- Skip Link -->
+            <nav id="skip" class="fl-inverted-color">
+                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+            </nav>
+            <!-- END skip link -->
+
+
+            <header class="ignore-for-TOC row fl-inverted-color">
+                <!-- BEGIN markup for Preference Editor -->
+                <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                    <!-- This is the div that will contain the Preference Editor component -->
+                    <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                    <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                    <div class="fl-panelBar">
+                        <span class="fl-prefsEditor-buttons">
+                            <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                            <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                        </span>
+                    </div>
+                </div>
+                <!-- END markup for Preference Editor -->
+
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="index.html" title="Home: Floe Inclusive Learning Design Handbook">
+                        <span class="show-for-sr">
+                            <h1>Floe Project: Inclusive Learning Design Handbook</h1>
+                        </span>
+
+                        <span aria-hidden="true">
+                            <h1>
+                                floe
+                                <span class="docs-template-tagline">The Inclusive Learning<br/>Design Handbook</span>
+                            </h1>
+                        </span>
+                    </a>
+
+                    
+                    <nav class="right show-for-small-only docs-template-nav-mobile">
+                        <ul id="menu">
+                            <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                                <ul class="docs-template-dropDown">
+                                    
+                                    
+                                        
+                                            <li><a href="index.html" title="Introduction">Introduction</a></li>
+                                        
+                                    
+                                        
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                                        
+                                    
+                                        
+                                            <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                                        
+                                    
+                                        
+                                            <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                                        
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        
+                        
+                            
+                                <li><a href="index.html" title="Introduction">Introduction</a></li>
+                            
+                        
+                            
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: Methods">Methods</span></li>
+                            
+                        
+                            
+                                <li><a href="AccessibleStandardizedTesting.html" title="Accessible Standardized Testing">Accessible Standardized Testing</a></li>
+                            
+                        
+                            
+                                <li><a href="InclusiveEPUB3.html" title="Inclusive EPUB 3">Inclusive EPUB 3</a></li>
+                            
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
+                    
+                        
+                        
+                    
+                        
+                        
+                            <h2 class="docs-template-category">Methods</h2>
+                            
+                                <h3 class="docs-template-sectionName"></h3>
+                                <ul>
+                                    
+                                        <li>
+                                            
+                                                <a href="InclusiveLearning.html">Inclusive Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessibilityPrinciples.html">Accessibility Principles</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Techniques.html">Techniques</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Metadata.html">Metadata</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AccessForAll.html">Access for All</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SchemaOrgAccessibilityProperties.html">Schema.org Accessibility Properties</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="LearnerNeedsAndPreferences.html">Learner Needs and Preferences</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="VideoContentAndLearning.html">Video Content and Learning</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <span aria-label="Currently on: Audio Content and Learning" class="docs-template-topics-active">Audio Content and Learning</span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="WebGamesAndSimulations.html">Web Games and Simulations</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="ModalDialogs.html">Accessible Modal Dialogs</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="SVGAndAccessibility.html">SVG and Accessibility</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="Sonification.html">Sonification</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="AuthoringOfContent.html">Authoring of Content</a>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            
+                                                <a href="CognitiveConsiderations.html">Cognitive Considerations</a>
+                                            
+                                        </li>
+                                    
+                                </ul>
+                            
+                        
+                    
+                        
+                        
+                    
+                        
+                        
+                    
+                </nav>
+            </div>
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
+                    <h1>Audio Content and Learning</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+
+                    <div class="docs-template-articleContent">
+                        <p>Audio as a learning medium has been, and continues to be, used pervasively. Audiobooks, lecture recordings, podcasts, and other audio content provide learners with rich content that they can listen to both at home and on the go.</p>
+<p>Peculiarly, while video content and players often come with captions, it is unusual to find audio content and players accompanied by text alternatives.</p>
+<p>Like with video players (see <a href="VideoContentAndLearning.html">Video content and learning</a>), the following considerations have a major impact on the inclusivity of audio players:</p>
+<ul>
+<li>Multi-modality of audio content (default aural track, text-based visual track)</li>
+<li>Enhancing the visual and aural perceivability of the content and player interface</li>
+<li>Localization of content</li>
+<li>Mouse, keyboard, and alternate input operability of the audio player</li>
+<li>Breaking forced pace and forced linearity of audio content</li>
+</ul>
+<h2 id="take-away">Take Away</h2>
+<ul>
+<li>Ensure that audio content can be consumed visually (via text).</li>
+<li>Audio content is typically consumed in a linear way, at a forced pace. Allow learners to scan content, and consume it at both their own pace, and in the order they want it in.</li>
+</ul>
+<h2 id="managing-the-multi-modality-of-video">Managing the Multi-modality of Video</h2>
+<p>Audio, unlike video, often comes simply as audio, without any complementing transcript. While many learners may find this sufficient for their needs, many others will not. Like with video content, we should consider students wanting to listen to audio but are circumstantially (e.g., in a quiet library space or at a loud cafe without headphones) or chronically (e.g., hard of hearing) unable to. In such scenarios, audio material is useless.</p>
+<p>Thus, audio should ideally be composed of at least two layers of content:</p>
+<ol>
+<li>The standard audio track layer.</li>
+<li>A visual layer, in the form of closed captions, subtitles, and/or transcripts</li>
+</ol>
+<h2 id="subtitles-closed-captions-and-transcripts">Subtitles, Closed captions and Transcripts</h2>
+<p>Subtitles, closed captions, and transcripts provide users with a visual text track that they can read along with or separate from the audio track.</p>
+<p>Subtitles are texts displayed simultaneous with the audio that is typically composed just of dialogue. Oftentimes, subtitles are translated into other languages for localization, which ensures the content is not exclusive to one particular language. This is also particularly helpful for learners who are both learning a new topic as well as a new language.</p>
+<p>Closed captions are texts displayed simultaneous with the audio that includes both dialogue and other audio content (e.g., <jazz music playing in the background>, <loud crashing noise>).</p>
+<p>Transcripts are the full text of audio, which are useful both while listening to and independent of the audio. Oftentimes, to offer increased readability, transcripts provide additional content structure that closed captions and subtitles do not (e.g., paragraphs, headings, etc.).</p>
+<figure>
+<a href="images/Audio_player_design-captions-transcript.png"><img src="images/thumbs/500px-Audio_player_design-captions-transcript.png" alt="Audio player with captions and structured transcript"></a>
+<figcaption>
+<em>Figure 1:</em> Audio player with captions and structured transcript.
+</figcaption>
+</figure>
+
+<h2 id="visual-and-aural-considerations">Visual and Aural Considerations</h2>
+<h3 id="visual-considerations">Visual considerations</h3>
+<p>While audio content has no inherent visual considerations, the audio playing interface, captions/subtitles, and transcripts should be made as inclusive as possible. The various transformations for interfaces and text (see <a href="LearnerNeedsAndPreferences.html">Learner needs and preferences</a>) apply to audio subtitles, captions, transcripts and the audio playing interface.</p>
+<p>These include:</p>
+<ul>
+<li>For subtitles, captions, transcripts:<ul>
+<li>Text size</li>
+<li>Line-spacing (and, less commonly, word and character spacing)</li>
+<li>Text style<ul>
+<li>Serif</li>
+<li>Sans-serif</li>
+<li>Weighted for dyslexia (e.g., <a href="http://www.dyslexiefont.com/en/dyslexia-font/" rel="nofollow" class="link-external" target="_blank">Dyslexie font</a>)</li>
+<li>Different variations of letter readability (e.g., for lowercase “a”, typeface with a “tailed ‘a’” or “hatted ‘a’”)</li>
+</ul>
+</li>
+<li>Contrast<ul>
+<li>High-contrast variations (e.g., black on white, white on black, yellow on black, black on yellow)</li>
+<li>Photophobia variations (i.e., lower contrast)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>For the interface:<ul>
+<li>Large buttons and icons</li>
+<li>Contrast changes</li>
+</ul>
+</li>
+</ul>
+<h3 id="aural-considerations">Aural considerations</h3>
+<p>The space of what can be effectively and easily done to benefit aural inclusion is limited. The most fundamental preference option is volume control, but beyond that, one can also perform post-processing to even out volume, limit volume, and augment vocal frequencies.</p>
+<h2 id="operability-of-the-audio-player">Operability of the Audio Player</h2>
+<p>Ensuring that audio content can be consumed by a diversity of users and in a diversity of situations is important, but those efforts are in vain if the audio player itself cannot be easily operated.</p>
+<p>Beyond basic usability considerations, audio players should ensure that:</p>
+<ul>
+<li>Interface elements are well visible and operable: Buttons, sliders, drop-downs, etc. should be sufficiently large to both easily see and easily click on.</li>
+<li>The player is operable with different inputs: Users should be able to use the player with just the mouse, or just the keyboard, or other alternative inputs (e.g., switch interfaces).</li>
+<li>The player is screen-reader friendly.</li>
+</ul>
+<h2 id="breaking-the-forced-pace-and-linearity-of-audio">Breaking the Forced Pace and Linearity of Audio</h2>
+<p>Audio content is, by default, intended to be consumed at a prescribed rate (one second of audio content consumed per one second of learning time), in a prescribed direction (specifically, in forward sequence). This prevents learners from learning at their own pace (since their pace must be exactly that of the learning content’s pace), as well as in their own arrangement (since the content must be consumed in the order that it was created).</p>
+<p>Contrast this to books. Books can be consumed at the learner’s own pace (they can spend as much time reading a sentence as they’d like; and repeatedly, if they wish), and in their own arrangement (they can read a chapter on French art, and then another chapter on Japanese art, in that order, even if that was not the order of the book).</p>
+<p>To break the pace and linear consumption of audio, we should use audio players with the following functionality:</p>
+<ul>
+<li>Scannable content</li>
+<li>Skippable content</li>
+</ul>
+<p>(Additionally, audio players supporting structured content are also of value.)</p>
+<p>Allowing for scannable content allows users to see both what’s ahead and what was already presented, without having to either wait for the audio to present it or listen to the audio all over again. Allowing learners to easily skip from point to point in the audio also gives them the chance to review previous material, or skip ahead to relevant material.</p>
+<p>The combination of the two--scannable and skippable content--help to break the forced pace and linear consumption of audio content.</p>
+<h2 id="case-study-floe-audio-player-concept">Case Study: Floe Audio Player Concept</h2>
+<p>The Floe audio player design concept would accomplish many of the goals of an inclusive audio playing platform. Some of the envisaged features include:</p>
+<ul>
+<li>Richly layered content: closed captions and structured transcripts</li>
+<li>Localization for the captions and transcripts</li>
+<li>Visual preferences: options for changing text and interface size, typeface, and contrast</li>
+<li>Mouse- or keyboard-friendly: fully operable with mouse or keyboard only</li>
+<li>Enhanced keyboard operation: usable with standard tab, enter, and arrow keys; or with customizable key bindings for each of the functions (e.g., spacebar for play/pause)</li>
+<li>Caption preview on scrub bar hover</li>
+<li>Interactive transcript that shows what’s currently being spoken, and also allows users to skip to a different part by clicking on the text</li>
+<li>Option to request content alternatives (e.g., request a French caption, if one isn’t available)</li>
+</ul>
+<p>There are also future plans for audio annotation, structured audio (dividing the audio into chapters and sections), and bookmarks.</p>
+<figure>
+<a href="images/Audio_player_design-caption-preview.png"><img src="images/Audio_player_design-caption-preview.png" alt="Floe audio player design showing captions and caption preview on scrub bar hover"></a>
+<figcaption>
+<em>Figure 2:</em> Floe audio player design showing captions and caption preview on scrub bar hover
+</figcaption>
+</figure>
+
+<figure>
+<a href="images/Audio_player_design-enlarged-captions.png"><img src="images/Audio_player_design-enlarged-captions.png" alt="Floe audio player design showing enlarged captions and interface for readability"></a>
+<figcaption>
+<em>Figure 3:</em> Floe audio player design showing enlarged captions and interface for readability
+</figcaption>
+</figure>
+
+<figure>
+<a href="images/Audio_player_design-interactive-transcript.png"><img src="images/Audio_player_design-interactive-transcript.png" alt="Floe audio player design showing an interactive, structured transcript"></a>
+<figcaption>
+<em>Figure 4:</em> Floe audio player design showing an interactive, structured transcript
+</figcaption>
+</figure>
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="https://github.com/fluid-project/docs-inclusive-learning/blob/master/src/documents/AudioContentAndLearning.html.md.handlebars" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            <footer class="row docs-template-footer fl-inverted-color">
+                <p>The Floe Inclusive Learning Design Handbook, part of the <a class="link-external" rel="nofollow" target="_blank" href="http://www.floeproject.org/">Floe Project</a>, is produced by the <a href="http://idrc.ocadu.ca/" rel="nofollow" target="_blank" class="link-external">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca" rel="nofollow" target="_blank" class="link-external">OCAD University</a>.</p>
+                <p>Floe is funded by a grant from <a href="http://www.hewlett.org/" rel="nofollow" target="_blank" class="link-external">The William and Flora Hewlett Foundation</a>.</p>
+                <p>Licensed under <a href="http://creativecommons.org/licenses/by/2.5/ca/" rel="nofollow" target="_blank" class="link-external">Creative Commons Attribution 2.5 Canada</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                docsCore.init("./");
+                jQuery( "#menu" ).menu({
+                    position: {my: "right top", at: "right bottom"},
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>
